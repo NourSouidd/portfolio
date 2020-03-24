@@ -87,6 +87,7 @@ GEM
     nio4r (2.5.2)
     nokogiri (1.10.9)
       mini_portile2 (~> 2.4.0)
+    particles-js-rails (2.0.0)
     pg (0.21.0)
     pry (0.13.0)
       coderay (~> 1.1)
@@ -186,6 +187,7 @@ DEPENDENCIES
   font-awesome-sass (~> 5.12.0)
   jbuilder (~> 2.0)
   listen (~> 3.0.5)
+  particles-js-rails
   pg (~> 0.21)
   pry-byebug
   pry-rails

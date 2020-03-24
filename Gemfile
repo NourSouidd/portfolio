@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 ruby '2.6.5'
 
-gem 'rails-assets-particles.js'
-
+gem 'particles-js-rails'
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
