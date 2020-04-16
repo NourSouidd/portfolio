@@ -27,8 +27,10 @@
       </h3>
       <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It provides a marketplace where people can provide  and book services.</p>
         <div class="links">
-          <span>Learn More</button>
-          <button><%= link_to "Visit Site", "http://www.day-o.cc/", :target => "_blank" %></button>
+          <button class="btn-black">Learn More</button>
+          <%= link_to "https://unlicensed.herokuapp.com/", :target => "_blank" do %>
+            <button class="btn-white">Visit Site</button>
+          <% end %>
         </div>
       </div>
     </div>
@@ -45,8 +47,10 @@
       </h3>
       <p>A web app that help you build eco conscience habit through challenges, track your impact and connect you to a community that shares the same goals.</p>
       <div class="links">
-        <button>Learn More</button>
-        <%= link_to "Visit Site", "https://unlicensed.herokuapp.com/", :target => "_blank" %>
+        <button class="btn-black">Learn More</button>
+        <%= link_to "http://www.day-o.cc/", :target => "_blank" do %>
+          <button class="btn-white">Visit Site</button>
+        <% end %>
       </div>
     </div>
   </div>

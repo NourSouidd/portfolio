@@ -3,6 +3,9 @@ body {
   background-color: #ffffff;
 }
 
+a:link {
+  text-decoration: none;
+}
 
 .banner {
   background-size: cover;
@@ -44,10 +47,6 @@ hr {
   justify-content: space-between;
   align-items: center;
 
-  a:link {
-    text-decoration: none;
-    color: #fff;
-  }
 }
 
 .content {
@@ -65,7 +64,7 @@ hr {
     vertical-align: middle;
     margin-left: 5px;
     color: #fff;
-    background-color: #fc1010cc;
+    background-color: #999DA6;
     display: inline-block;
     padding: 3px 11px;
     font-size: 50%;
@@ -76,6 +75,28 @@ hr {
   }
 }
 
+.btn-black {
+  background: #999DA6;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background: #000000;
+}
+
+.btn-white {
+  background: #fff;
+  border-color: #999DA6;
+  color: #999DA6;
+
+}
+
+.btn-white:hover {
+  border-color: #000000;
+  color: #000000;
+}
+
+
 .links {
   display: flex;
   justify-content: space-between;
@@ -83,21 +104,9 @@ hr {
   button {
     width: 124px;
     height: 45px;
-    background: #fff;
-    border-color: #fc1010cc;
-    border-radius: 23px;
-    color: #fc1010cc;
+    border-radius: 16px;
   }
 
-  a:link {
-    width: 124px;
-    height: 45px;
-    background: #fff;
-    border-color: #fc1010cc;
-    border-radius: 23px;
-    color: #fc1010cc;
-
-  }
 }
 
 
