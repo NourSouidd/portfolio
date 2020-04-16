@@ -1,7 +1,6 @@
 // Specific CSS for your home-page
-
-.project-image {
-  height: 100px;
+body {
+  background-color: #ffffff;
 }
 
 
@@ -26,3 +25,79 @@ hr {
   font-weight: bold;
   text-align: center;
 }
+
+.unlisenced-image {
+  height: 360px;
+  margin: 45px;
+}
+
+.dayo-image {
+  height: 390px;
+  margin-left: 192px;
+}
+
+.project {
+  height: 60%;
+  width: 80%;
+  margin: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  a:link {
+    text-decoration: none;
+    color: #fff;
+  }
+}
+
+.content {
+  p {
+    width: 300px;
+  }
+
+  h3 {
+    font-size: 28px;
+    font-weight: 560;
+    font-family: open sans,sans-serif;
+  }
+
+  span {
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #fc1010cc;
+    display: inline-block;
+    padding: 3px 11px;
+    font-size: 50%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    border-radius: .25rem;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    width: 124px;
+    height: 45px;
+    background: #fff;
+    border-color: #fc1010cc;
+    border-radius: 23px;
+    color: #fc1010cc;
+  }
+
+  a:link {
+    width: 124px;
+    height: 45px;
+    background: #fff;
+    border-color: #fc1010cc;
+    border-radius: 23px;
+    color: #fc1010cc;
+
+  }
+}
+
+

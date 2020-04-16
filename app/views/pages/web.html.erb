@@ -19,26 +19,35 @@
 
 <!-- unlisenced -->
   <div class="project">
-    <img src="" alt="">
+    <%= image_tag "unlicensed.png", class: "unlisenced-image"%>
     <div class="content">
-      <h1>The Unlicensed</h1>
-      <p>2020</p>
+      <h3>
+        The Unlicensed
+        <span>2020</span>
+      </h3>
       <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It provides a marketplace where people can provide  and book services.</p>
-      <button>Learn More</button>
-      <button>Visit Site</button>
+        <div class="links">
+          <span>Learn More</button>
+          <button><%= link_to "Visit Site", "http://www.day-o.cc/", :target => "_blank" %></button>
+        </div>
+      </div>
     </div>
   </div>
   <hr>
 
 <!-- day-o -->
   <div class="project">
-    <img src="" alt="">
+    <%= image_tag "dayO.png", class: "dayo-image"%>
     <div class="content">
-      <h1>Day 0</h1>
-      <p>2020</p>
+      <h3>
+        Day 0
+        <span>2020</span>
+      </h3>
       <p>A web app that help you build eco conscience habit through challenges, track your impact and connect you to a community that shares the same goals.</p>
-      <button>Learn More</button>
-      <button>Visit Site</button>
+      <div class="links">
+        <button>Learn More</button>
+        <%= link_to "Visit Site", "https://unlicensed.herokuapp.com/", :target => "_blank" %>
+      </div>
     </div>
   </div>
 
