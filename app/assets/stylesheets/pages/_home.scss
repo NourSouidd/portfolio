@@ -39,10 +39,18 @@ hr {
   margin-left: 192px;
 }
 
+h2.pre {
+  color: #a9a9a9;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 26px 0 0;
+}
+
 .project {
   height: 60%;
   width: 80%;
-  margin: 100px;
+  margin: 0 46px 106px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -64,7 +72,7 @@ hr {
     vertical-align: middle;
     margin-left: 5px;
     color: #fff;
-    background-color: #2e2e2e;
+    background-color: rgba(0, 0, 0, 0.5);
     display: inline-block;
     padding: 3px 11px;
     font-size: 50%;
@@ -76,25 +84,25 @@ hr {
 }
 
 .btn-black {
-  background: #2e2e2e;
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
 }
 
 .btn-black:hover {
   background: #fff;
-  border-color: #2e2e2e;
-  color: #2e2e2e;
+  border-color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   transition: 0.4s;
 }
 
 .btn-white {
-  border-color: #2e2e2e;
-  color: #2e2e2e;
+  border-color: rgba(0, 0, 0, 0.5);
+  color: rgba(0, 0, 0, 0.5);
 
 }
 
 .btn-white:hover {
-  background: #2e2e2e;
+  background: rgba(0, 0, 0, 0.5);
   color: #fff;
   transition: 0.4s;
 }
