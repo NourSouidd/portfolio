@@ -64,7 +64,7 @@ hr {
     vertical-align: middle;
     margin-left: 5px;
     color: #fff;
-    background-color: #999DA6;
+    background-color: #2e2e2e;
     display: inline-block;
     padding: 3px 11px;
     font-size: 50%;
@@ -76,24 +76,27 @@ hr {
 }
 
 .btn-black {
-  background: #999DA6;
+  background: #2e2e2e;
   color: #fff;
 }
 
 .btn-black:hover {
-  background: #000000;
+  background: #fff;
+  border-color: #2e2e2e;
+  color: #2e2e2e;
+  transition: 0.4s;
 }
 
 .btn-white {
-  background: #fff;
-  border-color: #999DA6;
-  color: #999DA6;
+  border-color: #2e2e2e;
+  color: #2e2e2e;
 
 }
 
 .btn-white:hover {
-  border-color: #000000;
-  color: #000000;
+  background: #2e2e2e;
+  color: #fff;
+  transition: 0.4s;
 }
 
 
