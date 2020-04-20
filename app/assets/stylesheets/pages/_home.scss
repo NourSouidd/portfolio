@@ -1,8 +1,7 @@
 // Specific CSS for your home-page
 .banner {
   background-size: cover;
-  height: 100vh;
-  // background-position: center;
+  height: 70vh;
   padding: 150px 0;
   display: flex;
   align-items: center;
@@ -11,6 +10,31 @@
 hr {
   border-color: #d6d6d6;
 }
+
+.carousel-inner {
+  margin-left: 120px;
+  img {
+    width: 100px;
+    height: 100px;
+    margin: 0 100px 50px 100px;
+
+  }
+}
+
+.carousel-control-next-icon {
+  background-image: url("https://www.iconninja.com/files/461/869/205/forward-next-direction-arrows-chevron-right-arrow-icon.svg") !important;
+  height: 50px;
+  width: 50px;
+  margin-bottom: 50px;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("https://i7.uihere.com/icons/604/695/823/backarrow-027f2060fc66d96a22683177d9e76176.png") !important;
+  height: 45px;
+  width: 45px;
+  margin-bottom: 50px;
+}
+
 
 .banner h1 {
   margin: 0;
@@ -141,4 +165,3 @@ h2.pre {
 .social-icons:hover {
   color: black;
 }
-
