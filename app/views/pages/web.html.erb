@@ -1,23 +1,27 @@
 <!-- navabar -->
 
-<%= render 'shared/navbar' %>
 
 <!-- animation / banner -->
 <div id="particles-js"></div>
 <script src="particles.js"></script>
 
-<div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
+  <%= render 'shared/navbar' %>
+<header>
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1533122250115-6bb28e9a48c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);">
   <div class="container">
 
     <h1>Nour Souid</h1>
     <h1>Fullstack Developer</h1>
   </div>
-</div>
+  </div>
+
+</header>
 
 
 <!-- projects cards -->
 
 <!-- unlisenced -->
+<div>
   <h2 class="pre text-center">Portfolio</h2>
   <div class="project">
     <%= image_tag "unlicensed.png", class: "unlisenced-image"%>
@@ -28,9 +32,9 @@
       </h3>
       <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It provides a marketplace where people can provide  and book services.</p>
         <div class="links">
-          <button class="btn-black">Learn More</button>
+          <button class="btn-white">Learn More</button>
           <%= link_to "https://unlicensed.herokuapp.com/", :target => "_blank" do %>
-            <button class="btn-white">Visit Site</button>
+            <button class="btn-black">Visit Site</button>
           <% end %>
         </div>
       </div>
@@ -48,13 +52,50 @@
       </h3>
       <p>A web app that help you build eco conscience habit through challenges, track your impact and connect you to a community that shares the same goals.</p>
       <div class="links">
-        <button class="btn-black">Learn More</button>
+        <button class="btn-white">Learn More</button>
         <%= link_to "http://www.day-o.cc/", :target => "_blank" do %>
-          <button class="btn-white">Visit Site</button>
+          <button class="btn-black">Visit Site</button>
         <% end %>
       </div>
     </div>
   </div>
 
+  <hr>
+
+  <div class="contact">
+    <h2 class="text-center mb-5">Let's Get In Touch!</h2>
+    <form method="post" action="mailto:noursouidd@gmail.com">
+        <div class="form-row mb-3">
+          <div class="col">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="col">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+        <button type="submit" class="w-96 btn-black">Send</button>
+      </form>
+    </div>
 
 
+    <div class="social-links">
+      <ul class="list-inline">
+        <li>
+          <a href="https://github.com/NourSouidd" target="_blank" class="social-icons">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/nour-souid-bbb9611a2/" target="_blank" class="social-icons">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+</div>

@@ -1,16 +1,8 @@
 // Specific CSS for your home-page
-body {
-  background-color: #ffffff;
-}
-
-a:link {
-  text-decoration: none;
-}
-
 .banner {
   background-size: cover;
   height: 100vh;
-  background-position: center;
+  // background-position: center;
   padding: 150px 0;
   display: flex;
   align-items: center;
@@ -30,13 +22,15 @@ hr {
 }
 
 .unlisenced-image {
-  height: 360px;
-  margin: 45px;
+  height: 304px;
+  margin-left: 12px;
+  margin-top: 30px;
 }
 
 .dayo-image {
-  height: 390px;
+  height: 416px;
   margin-left: 192px;
+  margin-top: 40px;
 }
 
 h2.pre {
@@ -44,13 +38,13 @@ h2.pre {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 26px 0 0;
+  margin: 26px;
 }
 
 .project {
   height: 60%;
   width: 80%;
-  margin: 0 46px 106px;
+  margin: 0 23px 106px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -59,12 +53,14 @@ h2.pre {
 
 .content {
   p {
-    width: 300px;
+    width: 350px;
+    font-size: 14px;
+    color: gray;
   }
 
   h3 {
-    font-size: 28px;
-    font-weight: 560;
+    font-size: 26px;
+    font-weight: 700;
     font-family: open sans,sans-serif;
   }
 
@@ -72,7 +68,7 @@ h2.pre {
     vertical-align: middle;
     margin-left: 5px;
     color: #fff;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: #7289da;
     display: inline-block;
     padding: 3px 11px;
     font-size: 50%;
@@ -83,41 +79,66 @@ h2.pre {
   }
 }
 
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+  button {
+    width: 124px;
+    height: 42px;
+    border-radius: 16px;
+  }
+
 .btn-black {
-  background: rgba(0, 0, 0, 0.5);
+  background: #7289da;
   color: #fff;
 }
 
 .btn-black:hover {
   background: #fff;
-  border-color: rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.5);
+  border-color: #7289da;
+  color: #7289da;
   transition: 0.4s;
 }
 
 .btn-white {
-  border-color: rgba(0, 0, 0, 0.5);
-  color: rgba(0, 0, 0, 0.5);
+  border-color: #7289da;
+  color: #7289da;
 
 }
 
 .btn-white:hover {
-  background: rgba(0, 0, 0, 0.5);
+  background: #7289da;
   color: #fff;
   transition: 0.4s;
 }
 
 
-.links {
-  display: flex;
-  justify-content: space-between;
-
+.contact {
+  margin: 30px 216px 100px 270px;
   button {
-    width: 124px;
-    height: 45px;
-    border-radius: 16px;
+    width: 96px;
+    position: relative;
+    left: 45%;
   }
-
 }
 
+// .social-links {
+//   position: fixed;
+// }
+
+.list-inline{
+  position: relative;
+  left: 90%;
+}
+.social-icons {
+  color: #e6e6e6;
+  margin: 0;
+  font-size: 45px;
+  transition: 0.3s;
+}
+
+.social-icons:hover {
+  color: black;
+}
 
