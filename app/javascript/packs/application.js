@@ -2,9 +2,12 @@ import "bootstrap";
 // import initUpdateNavbarOnScroll from "./navbar.js";
 
 // particlesJS.load(@dom-id, @path-json, @callback (optional));
+document.addEventListener('turbolinks:load', () => {
+  console.log('heyyy');
+  initUpdateNavbarOnScroll();
+});
 
 const initUpdateNavbarOnScroll = () => {
-  console.log('heyyy');
   const navbar = document.querySelector('.navbar-portfolio');
   console.log(navbar);
   if (navbar) {
@@ -18,9 +21,6 @@ const initUpdateNavbarOnScroll = () => {
   }
 }
 
-document.addEventListener('turbolinks:load', () => {
-  initUpdateNavbarOnScroll();
-});
 
 // particlesJS.load('particles-js', 'assets/particles.json', function() {
 //   console.log('callback - particles.js config loaded');
