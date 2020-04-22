@@ -65,7 +65,17 @@
         </h3>
         <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It provides a marketplace where people can provide  and book services.</p>
           <div class="links">
-            <button class="btn-white">Learn More</button>
+            <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-example-modal-lg">Learn More</button>
+            <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+              <div class="modal-dialog modal-lg">
+                <div class="container modal-content">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                  <%= "Lorem Ipsum is simply dummy text of the printing and typesetting industry." * 50 %>
+                </div>
+              </div>
+            </div>
             <%= link_to "https://unlicensed.herokuapp.com/", :target => "_blank" do %>
               <button class="btn-black">Visit Site</button>
             <% end %>
