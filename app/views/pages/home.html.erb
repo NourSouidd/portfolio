@@ -4,17 +4,16 @@
 <!-- animation / banner -->
 <!-- <div id="particles-js"></div>
 <script src="particles.js"></script> -->
-<div>
-  <%= render 'shared/navbar' %>
-  <header>
-    <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1533122250115-6bb28e9a48c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);">
-      <div class="container">
-        <h1>Nour Souid</h1>
-        <h1>Fullstack Developer</h1>
-      </div>
+<%= render 'shared/navbar' %>
+<header>
+  <div class="banner" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://images.unsplash.com/photo-1533122250115-6bb28e9a48c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);">
+    <div class="container">
+      <h1>Nour Souid</h1>
+      <h1>Fullstack Developer</h1>
     </div>
+  </div>
 
-  </header>
+</header>
 
 <div>
   <h2 class="pre text-center">Skills</h2>
@@ -47,110 +46,27 @@
   </div>
 </div>
 
+
 <hr>
 
-
-
-  <!-- projects cards -->
-
-  <!-- unlisenced -->
-  <div id="projects">
-    <h2 class="pre text-center">Portfolio</h2>
-    <div class="project">
-      <%= image_tag "unlicensed.png", class: "unlisenced-image"%>
-      <div class="content">
-        <h3>
-          The Unlicensed
-          <span>2020</span>
-        </h3>
-        <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It's a service marketplace where people can offer and book services.</p>
-          <div class="links">
-            <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-unlicensed-modal-lg">Learn More</button>
-            <div class="modal fade bd-unlicensed-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-              <div class="modal-dialog modal-lg">
-                <div class="container modal-content">
-                  <div class="modal-header">
-                    <h5>The Unlicensed</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <h6>Description</h6>
-                        <p>
-                        At The unlicensed, we celebrate local providers for the results delivered, and not for their papers. <br>
-                        Our goal was to: <br>
-                        - Breakdown workforce’s barriers for entry <br>
-                        - Inclusion for people from all backgrounds <br>
-                        - Integrate outsiders into our community <br>
-                        So we created a marketplace for legally accepted services in <strong>established fields</strong> (Info Providers, Massages, Semantic Work, Therapeutic Services...) as well as for <strong>emerging fields</strong> (Marie Kondo Organizers, Life Coach, Personal Dresser, Second Hand Shopper, Herbalist...).
-                        </p>
-                      </div>
-                      <div>
-                        <h6>Features</h6>
-                        <p>
-                          Profile – Your information and reviews written/received by other user <br>
-                          Search – You can find services based on your location and needs <br>
-                          Reviews and Ratings – You can see ratings and reviews of a service <br>
-                          Add Service – You can post, update or delete your services <br>
-                          Booking – You can book services and get informed when the provider accepts <br>
-                        </p>
-                      </div>
-                    </div>
-                    <div class="d-flex justify-content-between">
-                      <div>
-                        <h6>Things I learned</h6>
-                        <ul class="pl-3">
-                          <li>Building a prototype from scratch in 1 week</li>
-                          <li>Prioritizing</li>
-                          <li>Team Work</li>
-                          <li>Working with git and trello as a team</li>
-                          <li>UI & UX design is a very important and powerful asset</li>
-                          <li>Pitching</li>
-                        </ul>
-                      </div>
-
-                      <div>
-                        <h6>Tools & Languages</h6>
-                        <p><img src="https://i.pinimg.com/originals/5e/fd/4e/5efd4e04173b52c1c4d1f459679bf7fb.png" alt="figma icon" style="width: 15px;height: 15px"> Figma</p>
-                        <p><i class="fas fa-circle" style="color:#24292e"></i> Git & GitHub</p>
-                        <p><i class="fas fa-circle" style="color:#D91303"></i> Ruby On Rails</p>
-                        <p><i class="fas fa-circle" style="color:#016aea"></i> SQL</p>
-                        <p><i class="fas fa-circle" style="color:#F7DF1E"></i> Javascript</p>
-                        <p><i class="fas fa-circle" style="color:#563c7b"></i> Bootstrap</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <%= link_to "https://unlicensed.herokuapp.com/", :target => "_blank" do %>
-              <button class="btn-black">Visit Site</button>
-            <% end %>
-          </div>
-        </div>
-      </div>
-    </div>
-    <hr>
-
-  <!-- day-o -->
-    <div class="project">
-      <%= image_tag "dayO.png", class: "dayo-image"%>
-      <div class="content">
-        <h3>
-          Day O
-          <span>2020</span>
-        </h3>
-        <p>A web app that help you build eco conscience habit through challenges, track your impact and connect you to a community that shares the same goals.</p>
+<!-- unlisenced -->
+<div id="projects">
+  <h2 class="pre text-center">Portfolio</h2>
+  <div class="project">
+    <%= image_tag "unlicensed.png", class: "unlisenced-image"%>
+    <div class="content">
+      <h3>
+        The Unlicensed
+        <span>2020</span>
+      </h3>
+      <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It's a service marketplace where people can offer and book services.</p>
         <div class="links">
-          <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-dayo-modal-lg">Learn More</button>
-          <div class="modal fade bd-dayo-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-unlicensed-modal-lg">Learn More</button>
+          <div class="modal fade bd-unlicensed-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-lg">
               <div class="container modal-content">
                 <div class="modal-header">
-                  <h5>Day O</h5>
+                  <h5>The Unlicensed</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -160,23 +76,22 @@
                     <div>
                       <h6>Description</h6>
                       <p>
-                      In Day O, we know you are conscious about the environmental crisis and we help you do something about it because we know that what you do matters  <br>
+                      At The unlicensed, we celebrate local providers for the results delivered, and not for their papers. <br>
                       Our goal was to: <br>
-                      - Make Climate Habit easier to maintain <br>
-                      - Show how much impact can be done individually and collectively <br>
-                      - Connect people who shares the same goals <br>
-                      So we created a Climate Habit Builder App to help people who wants to reduce their C02 emissions sustain eco conscience habit through individual or collective challenges.
+                      - Breakdown workforce’s barriers for entry <br>
+                      - Inclusion for people from all backgrounds <br>
+                      - Integrate outsiders into our community <br>
+                      So we created a marketplace for legally accepted services in <strong>established fields</strong> (Info Providers, Massages, Semantic Work, Therapeutic Services...) as well as for <strong>emerging fields</strong> (Marie Kondo Organizers, Life Coach, Personal Dresser, Second Hand Shopper, Herbalist...).
                       </p>
                     </div>
                     <div>
                       <h6>Features</h6>
                       <p>
-                        Challenges – During a Timeframe you have to complete action each day to help you gain points <br>
-                        Habits – You can make an action from a challenge into a daily habit <br>
-                        Profile – Charts and calculation of the your daily, monthly impact and collective impact <br>
-                        Badges – You can earn a badge when you get to a certain level <br>
-                        Buddy System - You can complete a challenge with another user <br>
-                        Notification – You get a notification when you receive a buddy challenge request <br>
+                        Profile – Your information and reviews written/received by other user <br>
+                        Search – You can find services based on your location and needs <br>
+                        Reviews and Ratings – You can see ratings and reviews of a service <br>
+                        Add Service – You can post, update or delete your services <br>
+                        Booking – You can book services and get informed when the provider accepts <br>
                       </p>
                     </div>
                   </div>
@@ -184,10 +99,12 @@
                     <div>
                       <h6>Things I learned</h6>
                       <ul class="pl-3">
-                        <li>Building a prototype from scratch in 2 weeks</li>
-                        <li>Defining a persona and user journey</li>
-                        <li>Communication and Organisation within a team</li>
-                        <li>Choosing the right features for a pitch</li>
+                        <li>Building a prototype from scratch in 1 week</li>
+                        <li>Prioritizing</li>
+                        <li>Team Work</li>
+                        <li>Working with git and trello as a team</li>
+                        <li>UI & UX design is a very important and powerful asset</li>
+                        <li>Pitching</li>
                       </ul>
                     </div>
 
@@ -205,55 +122,134 @@
               </div>
             </div>
           </div>
-          <%= link_to "http://www.day-o.cc/", :target => "_blank" do %>
+          <%= link_to "https://unlicensed.herokuapp.com/", :target => "_blank" do %>
             <button class="btn-black">Visit Site</button>
           <% end %>
         </div>
       </div>
     </div>
+  </div>
+  <hr>
 
-    <hr>
+<!-- day-o -->
+  <div class="project">
+    <%= image_tag "dayO.png", class: "dayo-image"%>
+    <div class="content">
+      <h3>
+        Day O
+        <span>2020</span>
+      </h3>
+      <p>A web app that help you build eco conscience habit through challenges, track your impact and connect you to a community that shares the same goals.</p>
+      <div class="links">
+        <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-dayo-modal-lg">Learn More</button>
+        <div class="modal fade bd-dayo-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="container modal-content">
+              <div class="modal-header">
+                <h5>Day O</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h6>Description</h6>
+                    <p>
+                    In Day O, we know you are conscious about the environmental crisis and we help you do something about it because we know that what you do matters  <br>
+                    Our goal was to: <br>
+                    - Make Climate Habit easier to maintain <br>
+                    - Show how much impact can be done individually and collectively <br>
+                    - Connect people who shares the same goals <br>
+                    So we created a Climate Habit Builder App to help people who wants to reduce their C02 emissions sustain eco conscience habit through individual or collective challenges.
+                    </p>
+                  </div>
+                  <div>
+                    <h6>Features</h6>
+                    <p>
+                      Challenges – During a Timeframe you have to complete action each day to help you gain points <br>
+                      Habits – You can make an action from a challenge into a daily habit <br>
+                      Profile – Charts and calculation of the your daily, monthly impact and collective impact <br>
+                      Badges – You can earn a badge when you get to a certain level <br>
+                      Buddy System - You can complete a challenge with another user <br>
+                      Notification – You get a notification when you receive a buddy challenge request <br>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div>
+                    <h6>Things I learned</h6>
+                    <ul class="pl-3">
+                      <li>Building a prototype from scratch in 2 weeks</li>
+                      <li>Defining a persona and user journey</li>
+                      <li>Communication and Organisation within a team</li>
+                      <li>Choosing the right features for a pitch</li>
+                    </ul>
+                  </div>
 
-    <div class="contact">
-      <h2 class="text-center mb-5">Let's Get In Touch!</h2>
-      <form method="post" action="mailto:noursouidd@gmail.com">
-          <div class="form-row mb-3">
-            <div class="col">
-              <label for="name">Name</label>
-              <input type="text" class="form-control" id="name" placeholder="Name">
-            </div>
-            <div class="col">
-              <label for="Email">Email</label>
-              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+                  <div>
+                    <h6>Tools & Languages</h6>
+                    <p><img src="https://i.pinimg.com/originals/5e/fd/4e/5efd4e04173b52c1c4d1f459679bf7fb.png" alt="figma icon" style="width: 15px;height: 15px"> Figma</p>
+                    <p><i class="fas fa-circle" style="color:#24292e"></i> Git & GitHub</p>
+                    <p><i class="fas fa-circle" style="color:#D91303"></i> Ruby On Rails</p>
+                    <p><i class="fas fa-circle" style="color:#016aea"></i> SQL</p>
+                    <p><i class="fas fa-circle" style="color:#F7DF1E"></i> Javascript</p>
+                    <p><i class="fas fa-circle" style="color:#563c7b"></i> Bootstrap</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="form-group">
-              <label for="message">Your message</label>
-              <textarea class="form-control" id="message" rows="3"></textarea>
-            </div>
-          <button type="submit" class="w-96 btn-black">Send</button>
-        </form>
+        </div>
+        <%= link_to "http://www.day-o.cc/", :target => "_blank" do %>
+          <button class="btn-black">Visit Site</button>
+        <% end %>
       </div>
-
-
-      <div class="social-links" id="contact">
-        <ul class="list-inline">
-          <li>
-            <a href="https://github.com/NourSouidd" target="_blank" class="social-icons">
-              <i class="fab fa-github-alt"></i>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/nour-souid-bbb9611a2/" target="_blank" class="social-icons">
-              <i class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li>
-            <a href="#" target="_blank" class="social-icons">
-              <i class="fas fa-download"></i>
-            </a>
-          </li>
-        </ul>
-      </div>
+    </div>
   </div>
+
+  <hr>
+
+  <div class="contact">
+    <h2 class="text-center mb-5">Let's Get In Touch!</h2>
+    <form method="post" action="mailto:noursouidd@gmail.com">
+        <div class="form-row mb-3">
+          <div class="col">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" placeholder="Name">
+          </div>
+          <div class="col">
+            <label for="Email">Email</label>
+            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-group">
+            <label for="message">Your message</label>
+            <textarea class="form-control" id="message" rows="3"></textarea>
+          </div>
+        <button type="submit" class="w-96 btn-black">Send</button>
+      </form>
+    </div>
+
+
+    <div class="social-links" id="contact">
+      <ul class="list-inline">
+        <li>
+          <a href="https://github.com/NourSouidd" target="_blank" class="social-icons">
+            <i class="fab fa-github-alt"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/nour-souid-bbb9611a2/" target="_blank" class="social-icons">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank" class="social-icons">
+            <i class="fas fa-download"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
 </div>
+
