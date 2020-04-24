@@ -16,7 +16,7 @@ hr {
   img {
     width: 120px;
     height: 120px;
-    margin: 0 135px 50px 135px;
+    margin: 0 138px 50px 138px;
   }
 }
 
@@ -83,12 +83,11 @@ h2.pre {
   }
 }
 
-.content {
-  p {
-    width: 350px;
-    font-size: 14px;
-    color: gray;
-  }
+.content p {
+  width: 380px;
+  font-size: 16px;
+  color: gray;
+}
 
   h3 {
     font-size: 26px;
@@ -118,11 +117,12 @@ h3 {
   display: flex;
   justify-content: space-between;
 }
-  button {
-    width: 124px;
-    height: 42px;
-    border-radius: 16px;
-  }
+button {
+  width: 136px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 16px;
+}
 
 .btn-black {
   background: #7289da;
