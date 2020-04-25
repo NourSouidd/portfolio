@@ -105,8 +105,13 @@ h2.pre {
 
 .element-width {
   width: 50%;
+  margin-right: 30px;
+  strong {
+    font-weight: 600;
+  }
+
   p {
-    width: 0;
+    width: 100%;
   }
 }
 
