@@ -1,20 +1,19 @@
 import "bootstrap";
 
-
-const initUpdateNavbarOnScroll = () => {
-  const navbar = document.querySelector('.navbar-portfolio');
-  console.log("heyy");
-  if (navbar) {
-    window.addEventListener('scroll', () => {
-      if (window.scrollY >= window.innerHeight) {
-        navbar.classList.add('navbar-purple');
-      } else {
-        navbar.classList.remove('navbar-purple');
-      }
-    });
-  }
+const navbar = document.querySelector('.navbar-portfolio');
+console.log(navbar);
+if (navbar) {
+  window.addEventListener('scroll', () => {
+    if (window.scrollY >= window.innerHeight) {
+      navbar.classList.add('navbar-purple');
+    } else {
+      navbar.classList.remove('navbar-purple');
+    }
+  });
 }
+// const initUpdateNavbarOnScroll = () => {
+// }
 
-document.addEventListener('turbolinks:load', () => {
-  initUpdateNavbarOnScroll();
-});
+// document.addEventListener('turbolinks:load', () => {
+//   initUpdateNavbarOnScroll();
+// });
