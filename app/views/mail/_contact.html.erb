@@ -1,4 +1,4 @@
-<div class="contact">
+<!-- <div class="contact">
   <h2 class="text-center mb-5">Let's Get In Touch!</h2>
   <form method="post" action="/contact">
       <div class="form-row mb-3">
@@ -18,3 +18,50 @@
       <button type="submit" class="w-96 btn-black">Send</button>
   </form>
 </div>
+ -->
+
+ <%= form_for(@contact), remote: true, html: {class: 'form-horizontal'} do |f| %>
+   <fieldset>
+     <legend>Text</legend>
+    <br />
+      <div class="row">
+        <div class="span8">
+          <p>Feel free to drop me a quick line using the form below</p>
+          <div class="alert alert-error" style="display: none">
+            Both email address and message fields must be filled out.
+          </div>
+          <div class="control-group">
+            <label class="control-label" for="input01">Name</label>
+            <div class="controls">
+              <%= f.text_field :name, class: 'span4', placeholder: "Your full name" %>
+            </div>
+          </div>
+           <div class="control-group">
+             <label class="control-label" for="prependedInput">Email Address</label>
+             <div class="controls">
+               <div class="input-prepend">
+                 <span class="add-on"><i class="icon-envelope"></i></span>
+              <%= f.text_field :email, class: 'span3', placeholder: "me@domain.com", size: 16 %>
+               </div>
+             </div>
+           </div>
+           <div class="control-group">
+             <label class="control-label" for="prependedInput">Your Message</label>
+             <div class="controls">
+              <%= f.text_area :message, class: 'input-xlarge', rows: 6 %>
+             </div>
+           </div>
+          <div class="form-actions">
+             <button type="submit" data-toggle="button" data-loading-text="Sending…" class="btn btn-primary">Send Message</button>
+          </div>
+        </div>
+        <div class="span4">
+          <div class="alert alert-info">
+            <strong>Nothing against you!</strong>
+            <p>I would love to give you a beautiful email link and stuff but my spam goes up!</p>
+            <p>If you really need to get my email address, you can download my <%= link_to 'PDF Resume', '/Resume_Cyrille_LABESSE_EN.pdf' %> and find it on the left hand side.</p>
+          </div>
+        </div>
+      </div>
+   </fieldset>
+ <% end %>
