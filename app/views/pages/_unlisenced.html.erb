@@ -1,0 +1,76 @@
+<div class="project">
+  <%= image_tag "unlicensed.png", class: "unlisenced-image"%>
+  <div class="content">
+    <h3>
+      The Unlicensed
+      <span>2020</span>
+    </h3>
+    <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It's a service marketplace where people can offer and book services.</p>
+    <div class="links">
+      <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-unlicensed-modal-lg">Learn More</button>
+      <div class="modal fade bd-unlicensed-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-lg">
+            <div class="container modal-content">
+              <div class="modal-header">
+                <h5>The Unlicensed</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true" style="font-size: 20px;">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <div class="d-flex justify-content-between">
+                  <div class="element-width">
+                    <h6>Description</h6>
+                    <p>
+                    At The unlicensed, we celebrate local providers for the results delivered, and not for their papers. <br>
+                    Our goal was to: <br>
+                    - Breakdown workforce’s barriers for entry <br>
+                    - Inclusion for people from all backgrounds <br>
+                    - Integrate outsiders into our community <br>
+                    So we created a marketplace for legally accepted services in <strong>established fields</strong> (Info Providers, Massages, Semantic Work, Therapeutic Services...) as well as for <strong>emerging fields</strong> (Marie Kondo Organizers, Life Coach, Personal Dresser, Second Hand Shopper, Herbalist...).
+                    </p>
+                  </div>
+                  <div class="element-width">
+                    <h6>Features</h6>
+                    <p>
+                      Profile – Your information and reviews written/received by other user <br>
+                      Search – You can find services based on your location and needs <br>
+                      Reviews and Ratings – You can see ratings and reviews of a service <br>
+                      Add Service – You can post, update or delete your services <br>
+                      Booking – You can book services and get informed when the provider accepts <br>
+                    </p>
+                  </div>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <div class="element-width">
+                    <h6>Things I learned</h6>
+                    <ul class="pl-3">
+                      <li>Building a prototype from scratch in 1 week</li>
+                      <li>Prioritizing</li>
+                      <li>Team Work</li>
+                      <li>Working with git and trello as a team</li>
+                      <li>UI & UX design is a very important and powerful asset</li>
+                      <li>Pitching</li>
+                    </ul>
+                  </div>
+
+                  <div class="element-width">
+                    <h6>Tools & Languages</h6>
+                    <p><img src="https://i.pinimg.com/originals/5e/fd/4e/5efd4e04173b52c1c4d1f459679bf7fb.png" alt="figma icon" style="width: 15px;height: 15px"> Figma</p>
+                    <p><i class="fas fa-circle" style="color:#24292e"></i> Git & GitHub</p>
+                    <p><i class="fas fa-circle" style="color:#D91303"></i> Ruby On Rails</p>
+                    <p><i class="fas fa-circle" style="color:#016aea"></i> SQL</p>
+                    <p><i class="fas fa-circle" style="color:#F7DF1E"></i> Javascript</p>
+                    <p><i class="fas fa-circle" style="color:#563c7b"></i> Bootstrap</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      <%= link_to "https://unlicensed.herokuapp.com/", :target => "_blank" do %>
+        <button class="btn-black">Visit Site</button>
+      <% end %>
+    </div>
+  </div>
+</div>

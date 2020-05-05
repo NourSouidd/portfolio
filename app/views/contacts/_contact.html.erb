@@ -18,20 +18,32 @@
       <button type="submit" class="w-96 btn-black">Send</button>
   </form>
 </div> -->
-<div class="contact">
-    <h2 class="text-center mb-5">Let's Get In Touch!</h2>
-    <%= simple_form_for @contact, url: root_path do |f| %>
-      <div class="form-row mb-3">
-        <div class="col">
-          <%= f.input :name, label: "Name:", class: "form-control"%>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 text-center">
+      <h2>Let's Get In Touch!</h2>
+      <h3 class="text-muted mb-5">I’d love to hear about your ideas and help you bring it into life.</h3>
+      <div class="row">
+        <div class="col-md-6">
+          <%= simple_form_for @contact, url: root_path do |f| %>
+            <div class="form-group">
+              <%= f.input :content, as: :text, placeholder: "Your Message", class: "form-control" %>
+            </div>
         </div>
-        <div class="col">
-          <%= f.input :email, label: "Email:", class: "form-control" %>
+            <div class="col-md-6 d-f justify-content-center">
+              <div class="form-group">
+                <%= f.input :name, placeholder: "Name", class: "form-control"%>
+              <div class="form-group">
+                <%= f.input :email, placeholder: "Email", class: "form-control" %>
+              </div>
+            </div>
         </div>
+            <div class="col-lg-12 text-center contact">
+              <%= f.button :submit, 'Send', class: "btn-black" %>
+            </div>
+          <% end %>
+
       </div>
-      <div class="form-group">
-        <%= f.input :content, as: :text, label: "Message:", class: "form-control" %>
-      </div>
-        <%= f.button :submit, 'Send', class: "w-96 btn-black" %>
-    <% end %>
+    </div>
+  </div>
 </div>
