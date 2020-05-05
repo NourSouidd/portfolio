@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 ruby '2.6.5'
 
+gem 'dotenv-rails', groups: [:development, :test]
+gem 'letter_opener', group: :development
 gem 'particles-js-rails'
 gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
