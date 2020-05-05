@@ -3,9 +3,9 @@ class ContactMailer < ApplicationMailer
   def contact_mail(contact)
     mail(
       from:     contact.email,
-      to:       RECIPIENT_EMAIL,
+      to:       'noursouidd@gmail.com',
       subject:  "Message from #{contact.name}",
-      body:     contact.message
+      body:     contact.content
     )
   end
 end

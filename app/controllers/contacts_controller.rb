@@ -7,7 +7,7 @@ class ContactsController < ApplicationController
     @contact = Contact.new(contact_params)
     if @contact.valid?
       @contact.save
-      ContactMailer.contact(@contact).deliver_now
+      ContactMailer.contact_mail(@contact).deliver_now
       flash[:notice] = "Your message has been sent. Thank you!"
     else
       flash[:notice] = "Something went wrong"
