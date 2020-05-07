@@ -1,28 +1,28 @@
-<div class="project">
-  <%= image_tag "unlicensed.png", class: "unlisenced-image"%>
+<!-- <div class="project">
   <div class="content">
-    <h3>
-      The Unlicensed
-      <span>2020</span>
-    </h3>
-    <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It's a service marketplace where people can offer and book services.</p>
-    <div class="links">
-      <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-unlicensed-modal-lg">Learn More</button>
-      <%= render 'modals/unlisenced_about' %>
-      <%= link_to "https://unlicensed.herokuapp.com/", :target => "_blank" do %>
-        <button class="btn-black">Visit Site</button>
-      <% end %>
+
+  </div>
+</div> -->
+<div>
+  <div class="row align-items-center h-100 text-center text-lg-left">
+    <div class="col-lg-6 p-lg-0">
+      <%= image_tag "unlicensed.png", class: "unlisenced-image"%>
+
     </div>
-  </div>
-</div>
 
-
-<div class="row align-items-center h-100 text-center text-lg-left">
-  <div class="col-lg-6 p-lg-0">
-
-  </div>
-
-  <div class="col-lg-5 mx-auto py-3">
-
+    <div class="col-lg-5 mx-auto py-3 content">
+      <h3>
+        The Unlicensed
+        <span>2020</span>
+      </h3>
+      <p>A web app for individuals that doesn’t have the chance to practise their skills due to workforce’s barriers. It's a service marketplace where people can offer and book services.</p>
+      <div class="links">
+        <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-unlicensed-modal-lg">Learn More</button>
+        <%= render 'modals/unlisenced_about' %>
+        <%= link_to "https://unlicensed.herokuapp.com/", :target => "_blank" do %>
+          <button class="btn-black">Visit Site</button>
+        <% end %>
+      </div>
+    </div>
   </div>
 </div>

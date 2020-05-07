@@ -8,66 +8,7 @@
     <p>A web app that help you build eco conscience habit through challenges, track your impact and connect you to a community that shares the same goals.</p>
     <div class="links">
       <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-dayo-modal-lg">Learn More</button>
-      <div class="modal fade bd-dayo-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-          <div class="container modal-content">
-            <div class="modal-header">
-              <h5>Day O</h5>
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true" style="font-size: 20px;">&times;</span>
-              </button>
-            </div>
-            <div class="modal-body">
-              <div class="d-flex justify-content-between">
-                <div class="element-width">
-                  <h6>Description</h6>
-                  <p>
-                  In Day O, we know you are conscious about the environmental crisis and we help you do something about it because we know that what you do matters  <br>
-                  Our goal was to: <br>
-                  - Make Climate Habit easier to maintain <br>
-                  - Show how much impact can be done individually and collectively <br>
-                  - Connect people who shares the same goals <br>
-                  So we created a Climate Habit Builder App to help people who wants to reduce their C02 emissions sustain eco conscience habit through individual or collective challenges.
-                  </p>
-                </div>
-                <div class="element-width">
-                  <h6>Features</h6>
-                  <p>
-                    Challenges – During a Timeframe you have to complete action each day to help you gain points <br>
-                    Habits – You can make an action from a challenge into a daily habit <br>
-                    Profile – Charts and calculation of the your daily, monthly impact and collective impact <br>
-                    Badges – You can earn a badge when you get to a certain level <br>
-                    Buddy System - You can complete a challenge with another user <br>
-                    Notification – You get a notification when you receive a buddy challenge request <br>
-                  </p>
-                </div>
-              </div>
-
-              <div class="d-flex justify-content-between">
-                <div class="element-width">
-                  <h6>Things I learned</h6>
-                  <ul class="pl-3">
-                    <li>Building a prototype from scratch in 2 weeks</li>
-                    <li>Defining a persona and user journey</li>
-                    <li>Communication and Organisation within a team</li>
-                    <li>Choosing the right features for a pitch</li>
-                  </ul>
-                </div>
-
-                <div class="element-width">
-                  <h6>Tools & Languages</h6>
-                  <p><img src="https://i.pinimg.com/originals/5e/fd/4e/5efd4e04173b52c1c4d1f459679bf7fb.png" alt="figma icon" style="width: 15px;height: 15px"> Figma</p>
-                  <p><i class="fas fa-circle" style="color:#24292e"></i> Git & GitHub</p>
-                  <p><i class="fas fa-circle" style="color:#D91303"></i> Ruby On Rails</p>
-                  <p><i class="fas fa-circle" style="color:#016aea"></i> SQL</p>
-                  <p><i class="fas fa-circle" style="color:#F7DF1E"></i> Javascript</p>
-                  <p><i class="fas fa-circle" style="color:#563c7b"></i> Bootstrap</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <%= render 'modals/dayo_about' %>
       <%= link_to "http://www.day-o.cc/", :target => "_blank" do %>
         <button class="btn-black">Visit Site</button>
       <% end %>
