@@ -1,5 +1,5 @@
-<div class="project">
-  <%= image_tag "dayO.png", class: "dayo-image"%>
+<!-- <div class="project">
+  <%#= image_tag "dayO.png", class: "dayo-image"%>
   <div class="content">
     <h3>
       Day O
@@ -8,10 +8,33 @@
     <p>A web app that help you build eco conscience habit through challenges, track your impact and connect you to a community that shares the same goals.</p>
     <div class="links">
       <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-dayo-modal-lg">Learn More</button>
-        <%= render 'modals/dayo_about' %>
-      <%= link_to "http://www.day-o.cc/", :target => "_blank" do %>
+        <%#= render 'modals/dayo_about' %>
+      <%#= link_to "http://www.day-o.cc/", :target => "_blank" do %>
         <button class="btn-black">Visit Site</button>
-      <% end %>
+      <%# end %>
+    </div>
+  </div>
+</div> -->
+
+<div class="container section">
+  <div class="row align-items-center h-100 text-center text-lg-left project">
+    <div class="col-lg-6 p-lg-0">
+      <%= image_tag "dayO.png", class: "dayo-image"%>
+    </div>
+
+    <div class="col-lg-5 mx-auto py-3 content">
+      <h3>
+        Day O
+        <span>2020</span>
+      </h3>
+      <p>A web app that help you build eco conscience habit through challenges, track your impact and connect you to a community that shares the same goals.</p>
+      <div class="links">
+        <button type="button" class="btn-white" data-toggle="modal" data-target=".bd-dayo-modal-lg">Learn More</button>
+          <%= render 'modals/dayo_about' %>
+        <%= link_to "http://www.day-o.cc/", :target => "_blank" do %>
+          <button class="btn-black">Visit Site</button>
+        <% end %>
+      </div>
     </div>
   </div>
 </div>

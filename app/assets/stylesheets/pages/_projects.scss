@@ -1,5 +1,16 @@
+@media screen and (min-width: 1200px) {
+  .container {
+      max-width: 1140px;
+  }
+}
+
+.section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .unlisenced-image {
-  height: 340px;
+  height: 240px;
   margin-left: 12px;
   margin-top: 30px;
 }
@@ -15,13 +26,13 @@ h2.pre {
   font-size: 20px;
   text-transform: uppercase;
   letter-spacing: 2px;
-  margin: 26px;
+  margin-bottom: 70px;
 }
 
 .project {
-  height: 60%;
-  width: 80%;
-  margin: 0 23px 106px;
+  // height: 60%;
+  // width: 80%;
+  // margin: 0 23px 106px;
   display: flex;
   justify-content: space-between;
   align-items: center;
