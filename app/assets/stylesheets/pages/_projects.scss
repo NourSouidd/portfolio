@@ -1,0 +1,118 @@
+.unlisenced-image {
+  height: 340px;
+  margin-left: 12px;
+  margin-top: 30px;
+}
+
+.dayo-image {
+  height: 460px;
+  margin-left: 192px;
+  margin-top: 40px;
+}
+
+h2.pre {
+  color: #a9a9a9;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 26px;
+}
+
+.project {
+  height: 60%;
+  width: 80%;
+  margin: 0 23px 106px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.modal-body {
+  h6 {
+    color: #7289da;
+  }
+  p {
+    color: black !important;
+  }
+}
+
+.content {
+  p {
+    width: 380px;
+    font-size: 16px;
+    color: grey;
+  }
+
+  h3 {
+    font-size: 26px;
+    font-weight: 700;
+    font-family: open sans,sans-serif;
+  }
+
+}
+
+.element-width {
+  width: 50%;
+  margin-right: 30px;
+  strong {
+    font-weight: 600;
+  }
+
+  p {
+    width: 100%;
+  }
+}
+
+
+h3 {
+  span {
+    vertical-align: middle;
+    margin-left: 5px;
+    color: #fff;
+    background-color: #7289da;
+    display: inline-block;
+    padding: 3px 11px;
+    font-size: 50%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    border-radius: .25rem;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  width: 136px;
+  height: 50px;
+  font-size: 18px;
+  border-radius: 16px;
+}
+
+.btn-black {
+  background: #7289da;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background: #fff;
+  border-color: #7289da;
+  color: #7289da;
+  transition: 0.4s;
+}
+
+.btn-white {
+  border-color: #7289da;
+  color: #7289da;
+
+}
+
+.btn-white:hover {
+  background: #7289da;
+  color: #fff;
+  transition: 0.4s;
+}
+
