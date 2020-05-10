@@ -20,29 +20,25 @@ hr {
   text-align: center;
 }
 
-// .carousel-item.active .carousel-item-next .carousel-item-prev {
-//   display: flex;
-//   justify-content: space-around;
-// }
-
 .carousel-inner {
   img {
-    width: 120px;
-    height: 120px;
+    width: 8%;
+    height: 8%;
   }
 }
 
 .carousel-control-next-icon {
   background-image: url("https://www.iconninja.com/files/461/869/205/forward-next-direction-arrows-chevron-right-arrow-icon.svg") !important;
-  height: 50px;
-  width: 50px;
+  height: 56%;
+  width: 56%;
   margin-bottom: 16px;
 }
 
 .carousel-control-prev-icon {
-  background-image: url("https://i7.uihere.com/icons/604/695/823/backarrow-027f2060fc66d96a22683177d9e76176.png") !important;
-  height: 40px;
-  width: 40px;
+  background-image: url("https://www.iconninja.com/files/461/869/205/forward-next-direction-arrows-chevron-right-arrow-icon.svg") !important;
+  height: 56%;
+  width: 56%;
+  transform: rotateY(180deg);
 }
 
 .about-content {
