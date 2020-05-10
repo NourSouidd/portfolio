@@ -35,7 +35,7 @@ initSweetalert('.confirm', {
   text: "I will get back to you soon.",
   icon: "success",
   buttons: false,
-  timer: 2000,
+  timer: 2500,
 });
 
 
