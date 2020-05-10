@@ -28,8 +28,6 @@ const initSweetalert = (selector, options = {}) => {
   }
 };
 
-
-
 initSweetalert('.confirm', {
   title: "Thank you! 🙂",
   text: "I will get back to you soon.",

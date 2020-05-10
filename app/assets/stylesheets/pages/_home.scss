@@ -20,17 +20,15 @@ hr {
   text-align: center;
 }
 
-.carousel-item.active .carousel-item-next .carousel-item-prev {
-  display: flex;
-  justify-content: space-around;
-}
+// .carousel-item.active .carousel-item-next .carousel-item-prev {
+//   display: flex;
+//   justify-content: space-around;
+// }
 
 .carousel-inner {
-  margin-left: 120px;
   img {
     width: 120px;
     height: 120px;
-    margin: 0 138px 50px 138px;
   }
 }
 
@@ -38,14 +36,12 @@ hr {
   background-image: url("https://www.iconninja.com/files/461/869/205/forward-next-direction-arrows-chevron-right-arrow-icon.svg") !important;
   height: 50px;
   width: 50px;
-  margin-bottom: 50px;
 }
 
 .carousel-control-prev-icon {
   background-image: url("https://i7.uihere.com/icons/604/695/823/backarrow-027f2060fc66d96a22683177d9e76176.png") !important;
   height: 40px;
   width: 40px;
-  margin-bottom: 50px;
 }
 
 .about-content {
