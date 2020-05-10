@@ -8,11 +8,7 @@ class ContactsController < ApplicationController
     if @contact.valid?
       @contact.save
       ContactMailer.contact_mail(@contact).deliver_now
-      flash[:notice] = "Your message has been sent. Thank you!"
-    else
-      flash[:notice] = "Something went wrong"
     end
-    redirect_to root_path
   end
 
   private
