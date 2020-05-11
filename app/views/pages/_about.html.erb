@@ -13,11 +13,15 @@
     </div>
     <div class="col-sm-6 m-auto">
       <div class="about-content">
-        <img class="img-circle img-responsive" style="width:239px;" src="https://avatars0.githubusercontent.com/u/59400481?s=460&u=0711eceb6120756696480e015b6272e6e16554f8&v=4">
+        <%= image_tag "profile.jpg", class: "img-circle img-responsive", style:"width:239px;" %>
         <h4>Nour Souid</h4>
         <p class="text-muted">Full-Stack Developer</p>
         <ul class="list-inline-about social-buttons">
-          <li><a target="blank" href="file:///Users/noursouid/Downloads/Simple%20Professional%20Software%20Engineer%20Resume%20(1).pdf"><i class="fas fa-file-alt"></i></a></li>
+          <li>
+            <%= link_to asset_path("Cv.pdf"), target: "_blank" do %>
+              <i class="fas fa-file-alt"></i>
+            <% end %>
+          </li>
           <li><a target="blank" href="https://www.linkedin.com/in/noursouid"><i class="fab fa-linkedin-in"></i></a></li>
           <li><a target="blank" href="https://medium.com/@noursouidd"><i class="fab fa-medium-m"></i></a></li>
           <li><a target="blank" href="https://github.com/NourSouidd"><i class="fab fa-github"></i></a></li>
