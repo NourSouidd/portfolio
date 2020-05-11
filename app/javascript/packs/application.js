@@ -30,7 +30,7 @@ const initSweetalert = (selector, options = {}) => {
 
 initSweetalert('.confirm', {
   title: "Thank you! 🙂",
-  text: "I will get back to you soon.",
+  text: "Can't wait to work with you.",
   icon: "success",
   buttons: false,
   timer: 2500,
