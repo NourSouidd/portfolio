@@ -10,11 +10,16 @@
     <meta property="og:title" content="Nour: Full-Stack Developer based in Montreal" />
     <meta property="og:type" content="website" />
     <!-- <meta property="og:image" content="" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload', defer: true %>
   </head>
   <body id="page-top">
     <%= yield %>
     <%= javascript_include_tag 'application' %>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
