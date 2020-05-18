@@ -4,6 +4,27 @@
   }
 }
 
+@media (max-width: 540px) {
+  .dayo-image {
+    margin: 54px 0px 54px 100px;
+  }
+
+  .unlisenced-image {
+    height: 240px;
+    margin: 54px 0px 54px 0px;
+  }
+
+  .social-links {
+    display: none;
+  }
+
+  .section {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding: 100px 10px;
+  }
+}
+
 .section {
   padding-top: 100px;
   padding-bottom: 100px;

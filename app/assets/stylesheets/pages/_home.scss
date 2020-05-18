@@ -1,4 +1,26 @@
 // Specific CSS for your home-page
+@media (max-width: 540px) {
+  .carousel-control-next-icon {
+    height: 70%;
+    width: 70%;
+    margin-left: 40px;
+    margin-bottom: 0px;
+  }
+  .carousel-control-prev-icon {
+    height: 70%;
+    width: 70%;
+    margin-right: 40px;
+    margin-bottom: 0px;
+  }
+
+  .carousel-inner {
+    img {
+      width: 12%;
+      height: 12%;
+    }
+  }
+}
+
 .banner {
   background-size: cover;
   height: 70vh;
